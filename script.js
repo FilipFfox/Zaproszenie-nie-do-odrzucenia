@@ -12,3 +12,12 @@ runawayBtn.addEventListener('mousemove', (e) => {
 	runawayBtn.style.left = `${randomPositionBottom}px`;
 	runawayBtn.style.left = `${randomPositionLeft}px`;
 });
+function changeText() {
+	var button = document.getElementById('myButton');
+  
+	if (button.innerHTML === 'Tak') {
+	  button.innerHTML = 'Kocham cię';
+	} else {
+	  button.innerHTML = 'Tak';
+	}
+  }
